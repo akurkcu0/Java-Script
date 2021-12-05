@@ -66,43 +66,44 @@
     
 // }
 
-function add(...numbers) { //fonksiyonun içerisinde ... ile tanımlama yapılırsa REST operatöürüdür.
-    let total = 0
-    for (let i = 0; i < numbers.length; i++) {
-        total +=  numbers[i]
-    }
+// function add(...numbers) { //fonksiyonun içerisinde ... ile tanımlama yapılırsa REST operatöürüdür.
+//     let total = 0
+//     for (let i = 0; i < numbers.length; i++) {
+//         total +=  numbers[i]
+//     }
     
-    console.log(total)
-}
-// REST operatörünün dışında başka bir parametre var ise onu restten önce tamımla
-//function add(bisey, ...numbers) gibi tanımlanmalıdır 
-add(20,60)
-let numbers = [30,10,500,456,876]
-console.log(Math.max(...numbers))
-//----------------------------------------*****
-let [regions,regions2,regions3,[icAnadolu,marmara,karadeniz]] = [
-    {name: "İç Anadolu", population : "20M"},
-    {name: "Marmara", population : "30M"},
-    {name: "Karadeniz", population : "15M"},
-    [
-        ["Ankara","Konya"],
-        ["İstanbul","Bursa"],
-        ["Rize","Trabzon"],
-    ]
-]
+//     console.log(total)
+// }
+// // REST operatörünün dışında başka bir parametre var ise onu restten önce tamımla
+// //function add(bisey, ...numbers) gibi tanımlanmalıdır 
+// add(20,60)
+// let numbers = [30,10,500,456,876]
+// console.log(Math.max(...numbers))
+// //----------------------------------------*****
+// let [regions,regions2,regions3,[icAnadolu,marmara,karadeniz]] = [
+//     {name: "İç Anadolu", population : "20M"},
+//     {name: "Marmara", population : "30M"},
+//     {name: "Karadeniz", population : "15M"},
+//     [
+//         ["Ankara","Konya"],
+//         ["İstanbul","Bursa"],
+//         ["Rize","Trabzon"],
+//     ]
+// ]
 
-console.log(regions.name)
-console.log(regions.population)
-console.log(regions2)
-console.log(regions3)
-console.log(icAnadolu)
-console.log(marmara)
-console.log(karadeniz)
+// console.log(regions.name)
+// console.log(regions.population)
+// console.log(regions2)
+// console.log(regions3)
+// console.log(icAnadolu)
+// console.log(marmara)
+// console.log(karadeniz)
 
-let newProductName,newUnitPrice,newQuantity
-({productName:newProductName,unitPrice:newUnitPrice,quantity:newQuantity} 
-    = {productName: "Elma", unitPrice:10, quantity: 5})
+// let newProductName,newUnitPrice,newQuantity
+// ({productName:newProductName,unitPrice:newUnitPrice,quantity:newQuantity} 
+//     = {productName: "Elma", unitPrice:10, quantity: 5})
 
-console.log(newProductName)
-console.log(newUnitPrice)
-console.log(newQuantity)
+// console.log(newProductName)
+// console.log(newUnitPrice)
+// console.log(newQuantity)
+
